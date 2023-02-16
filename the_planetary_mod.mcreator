@@ -1,9 +1,51 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "PlanetaryMod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planetary_mod"
+    },
+    {
+      "name": "AllayBiome",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allay_biome"
+    },
+    {
+      "name": "AllayPlanet",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allay_planet",
+      "metadata": {
+        "ep": true
+      }
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "allay_music",
+      "files": [
+        "minecraft_fallout_world_ambience"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.the_planetary_mod.allay_planet": "Planetary Teleporter: Allay",
+      "subtitles.allay_music": "",
+      "itemGroup.tabplanetary_mod": "The Planetary Mod",
+      "biome.the_planetary_mod.allay_biome": "Allay Biome"
+    }
   },
   "foldersRoot": {
     "name": "~",

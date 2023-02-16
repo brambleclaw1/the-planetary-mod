@@ -29,6 +29,12 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.theplanetarymod.init.ThePlanetaryModModTabs;
+import net.mcreator.theplanetarymod.init.ThePlanetaryModModSounds;
+import net.mcreator.theplanetarymod.init.ThePlanetaryModModItems;
+import net.mcreator.theplanetarymod.init.ThePlanetaryModModBlocks;
+import net.mcreator.theplanetarymod.init.ThePlanetaryModModBiomes;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -43,9 +49,13 @@ public class ThePlanetaryModMod {
 
 	public ThePlanetaryModMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		ThePlanetaryModModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		ThePlanetaryModModSounds.REGISTRY.register(bus);
+		ThePlanetaryModModBlocks.REGISTRY.register(bus);
+		ThePlanetaryModModItems.REGISTRY.register(bus);
 
+		ThePlanetaryModModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

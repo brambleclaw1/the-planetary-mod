@@ -1,0 +1,41 @@
+{
+  "mod_elements": [
+    {
+      "name": "PlanetaryMod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planetary_mod"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabplanetary_mod": "The Planetary Mod"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_planetary_mod",
+    "modName": "The Planetary Mod",
+    "version": "1.0.0",
+    "author": "gavin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.theplanetarymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

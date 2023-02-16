@@ -1,0 +1,11 @@
+{
+  "allay_music": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "the_planetary_mod:minecraft_fallout_world_ambience",
+        "stream": true
+      }
+    ]
+  }
+}
