@@ -25,11 +25,11 @@
       "value": "Blocks.NETHERITE_BLOCK"
     },
     "portalParticles": {
-      "value": "FIREWORKS_SPARK"
+      "value": "END_ROD"
     },
     "portalLuminance": 8,
     "portalSound": {
-      "value": "block.portal.ambient"
+      "value": "block.portal.trigger"
     },
     "igniterName": "Planetary Teleporter: Allay",
     "igniterTab": {

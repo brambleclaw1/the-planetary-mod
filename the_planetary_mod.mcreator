@@ -26,6 +26,14 @@
       "metadata": {
         "ep": true
       }
+    },
+    {
+      "name": "AllayTeleportRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allay_teleport_recipe"
     }
   ],
   "variable_elements": [],
