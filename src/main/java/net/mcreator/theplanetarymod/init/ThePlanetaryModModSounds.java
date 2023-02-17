@@ -15,10 +15,10 @@ import net.mcreator.theplanetarymod.ThePlanetaryModMod;
 
 public class ThePlanetaryModModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, ThePlanetaryModMod.MODID);
-	public static final RegistryObject<SoundEvent> ALLAY_MUSIC = REGISTRY.register("allay_music",
-			() -> new SoundEvent(new ResourceLocation("the_planetary_mod", "allay_music")));
 	public static final RegistryObject<SoundEvent> OBSIDIAN_PINNACLE = REGISTRY.register("obsidian_pinnacle",
 			() -> new SoundEvent(new ResourceLocation("the_planetary_mod", "obsidian_pinnacle")));
 	public static final RegistryObject<SoundEvent> SOGGY_SWAMP = REGISTRY.register("soggy_swamp",
 			() -> new SoundEvent(new ResourceLocation("the_planetary_mod", "soggy_swamp")));
+	public static final RegistryObject<SoundEvent> RANDOM = REGISTRY.register("random",
+			() -> new SoundEvent(new ResourceLocation("the_planetary_mod", "random")));
 }

@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.theplanetarymod.item.WardenPlanetItem;
+import net.mcreator.theplanetarymod.item.SnifferDimensionItem;
 import net.mcreator.theplanetarymod.item.SlimearmourItem;
 import net.mcreator.theplanetarymod.item.SlimeDimensionItem;
 import net.mcreator.theplanetarymod.item.AllayPlanetItem;
@@ -26,4 +27,5 @@ public class ThePlanetaryModModItems {
 			() -> new SlimearmourItem.Chestplate());
 	public static final RegistryObject<Item> SLIMEARMOUR_LEGGINGS = REGISTRY.register("slimearmour_leggings", () -> new SlimearmourItem.Leggings());
 	public static final RegistryObject<Item> SLIMEARMOUR_BOOTS = REGISTRY.register("slimearmour_boots", () -> new SlimearmourItem.Boots());
+	public static final RegistryObject<Item> SNIFFER_DIMENSION = REGISTRY.register("sniffer_dimension", () -> new SnifferDimensionItem());
 }

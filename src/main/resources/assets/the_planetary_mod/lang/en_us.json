@@ -1,16 +1,13 @@
 {
   "item.the_planetary_mod.allay_planet": "Planetary Teleporter: Allay",
-  "item.the_planetary_mod.slimearmour_boots": "Slimearmour Boots",
-  "subtitles.soggy_swamp": "",
-  "item.the_planetary_mod.slime_dimension": "Planetary Teleporter: Slime",
-  "biome.the_planetary_mod.allay_biome": "Allay Biome",
-  "item.the_planetary_mod.slimearmour_chestplate": "Slimearmour Body",
+  "subtitles.random": "",
   "biome.the_planetary_mod.slime_biome": "Slime Biome",
+  "subtitles.soggy_swamp": "",
   "subtitles.allay_music": "",
-  "item.the_planetary_mod.slimearmour_leggings": "Slimearmour Leggings",
+  "item.the_planetary_mod.slime_dimension": "Planetary Teleporter: Slime",
   "subtitles.obsidian_pinnacle": "",
   "item.the_planetary_mod.warden_planet": "Planetary Teleporter: Warden",
   "itemGroup.tabplanetary_mod": "The Planetary Mod",
-  "item.the_planetary_mod.slimearmour_helmet": "Slimearmour Helmet",
+  "biome.the_planetary_mod.allay_biome": "Allay Biome",
   "biome.the_planetary_mod.warden_biome": "Warden Biome"
 }
