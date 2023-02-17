@@ -9,7 +9,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.SLIME_BLOCK"
+      "value": "Blocks.WOOL#13"
     },
     "fluidBlock": {
       "value": "Blocks.WATER"

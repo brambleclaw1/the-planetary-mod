@@ -31,7 +31,7 @@
       "deepslate_enabled": true,
       "ore_veins_enabled": true,
       "default_block": {
-        "Name": "minecraft:slime_block"
+        "Name": "minecraft:green_wool"
       },
       "default_fluid": {
         "Name": "minecraft:water",
@@ -421,14 +421,14 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:slime_block"
+                              "Name": "minecraft:green_wool"
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:slime_block"
+                            "Name": "minecraft:green_wool"
                           }
                         }
                       ]

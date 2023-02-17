@@ -1,0 +1,156 @@
+{
+  "mod_elements": [
+    {
+      "name": "PlanetaryMod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planetary_mod"
+    },
+    {
+      "name": "AllayBiome",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allay_biome"
+    },
+    {
+      "name": "AllayPlanet",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allay_planet",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "AllayTeleportRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allay_teleport_recipe"
+    },
+    {
+      "name": "WardenBiome",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_biome"
+    },
+    {
+      "name": "WardenPlanet",
+      "type": "dimension",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_planet",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "WardenTeleportRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_teleport_recipe"
+    },
+    {
+      "name": "SlimeBiome",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_biome"
+    },
+    {
+      "name": "SlimeDimension",
+      "type": "dimension",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "SlimeTeleportRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_teleport_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "allay_music",
+      "files": [
+        "minecraft_fallout_world_ambience"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "obsidian_pinnacle",
+      "files": [
+        "obsidian_pinnacle"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "soggy_swamp",
+      "files": [
+        "soggy_swamp"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.the_planetary_mod.allay_planet": "Planetary Teleporter: Allay",
+      "biome.the_planetary_mod.slime_biome": "Slime Biome",
+      "subtitles.allay_music": "",
+      "subtitles.soggy_swamp": "",
+      "item.the_planetary_mod.slime_dimension": "Planetary Teleporter: Slime",
+      "subtitles.obsidian_pinnacle": "",
+      "item.the_planetary_mod.warden_planet": "Planetary Teleporter: Warden",
+      "itemGroup.tabplanetary_mod": "The Planetary Mod",
+      "biome.the_planetary_mod.allay_biome": "Allay Biome",
+      "biome.the_planetary_mod.warden_biome": "Warden Biome"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_planetary_mod",
+    "modName": "The Planetary Mod",
+    "version": "1.0.0",
+    "author": "gavin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.theplanetarymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

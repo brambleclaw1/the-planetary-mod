@@ -4,13 +4,13 @@
   "definition": {
     "name": "Slime Biome",
     "groundBlock": {
-      "value": "Blocks.SLIME_BLOCK"
+      "value": "Blocks.WOOL#13"
     },
     "undergroundBlock": {
       "value": "Blocks.IRON_ORE"
     },
     "underwaterBlock": {
-      "value": "Blocks.SLIME_BLOCK"
+      "value": "Blocks.WOOL#13"
     },
     "airColor": {
       "value": -13382656,
