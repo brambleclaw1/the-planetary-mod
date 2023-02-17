@@ -1,6 +1,9 @@
 {
   "item.the_planetary_mod.allay_planet": "Planetary Teleporter: Allay",
+  "biome.the_planetary_mod.slime_biome": "Slime Biome",
   "subtitles.allay_music": "",
+  "subtitles.soggy_swamp": "",
+  "item.the_planetary_mod.slime_dimension": "Planetary Teleporter: Slime",
   "subtitles.obsidian_pinnacle": "",
   "item.the_planetary_mod.warden_planet": "Planetary Teleporter: Warden",
   "itemGroup.tabplanetary_mod": "The Planetary Mod",

@@ -3,6 +3,8 @@
   "values": [
     "minecraft:diamond_block",
     "minecraft:diamond_ore",
-    "minecraft:sculk"
+    "minecraft:sculk",
+    "minecraft:slime_block",
+    "minecraft:iron_ore"
   ]
 }

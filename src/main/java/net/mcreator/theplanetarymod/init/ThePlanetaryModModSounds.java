@@ -19,4 +19,6 @@ public class ThePlanetaryModModSounds {
 			() -> new SoundEvent(new ResourceLocation("the_planetary_mod", "allay_music")));
 	public static final RegistryObject<SoundEvent> OBSIDIAN_PINNACLE = REGISTRY.register("obsidian_pinnacle",
 			() -> new SoundEvent(new ResourceLocation("the_planetary_mod", "obsidian_pinnacle")));
+	public static final RegistryObject<SoundEvent> SOGGY_SWAMP = REGISTRY.register("soggy_swamp",
+			() -> new SoundEvent(new ResourceLocation("the_planetary_mod", "soggy_swamp")));
 }
