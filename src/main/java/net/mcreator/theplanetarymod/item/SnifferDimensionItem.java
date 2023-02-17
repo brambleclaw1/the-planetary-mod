@@ -1,8 +1,18 @@
 
 package net.mcreator.theplanetarymod.item;
 
-public class SnifferDimensionItem extends Item {
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.core.BlockPos;
 
+import net.mcreator.theplanetarymod.block.SnifferDimensionPortalBlock;
+
+public class SnifferDimensionItem extends Item {
 	public SnifferDimensionItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).durability(64));
 	}
@@ -20,13 +30,11 @@ public class SnifferDimensionItem extends Item {
 			int y = pos.getY();
 			int z = pos.getZ();
 			boolean success = false;
-
 			if (world.isEmptyBlock(pos) && true) {
 				SnifferDimensionPortalBlock.portalSpawn(world, pos);
 				itemstack.hurtAndBreak(1, entity, c -> c.broadcastBreakEvent(context.getHand()));
 				success = true;
 			}
-
 			return success ? InteractionResult.SUCCESS : InteractionResult.FAIL;
 		}
 	}
