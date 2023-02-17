@@ -34,6 +34,33 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "allay_teleport_recipe"
+    },
+    {
+      "name": "WardenBiome",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_biome"
+    },
+    {
+      "name": "WardenPlanet",
+      "type": "dimension",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_planet",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "WardenTeleportRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_teleport_recipe"
     }
   ],
   "variable_elements": [],
@@ -45,14 +72,25 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "obsidian_pinnacle",
+      "files": [
+        "obsidian_pinnacle"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "item.the_planetary_mod.allay_planet": "Planetary Teleporter: Allay",
       "subtitles.allay_music": "",
+      "subtitles.obsidian_pinnacle": "",
+      "item.the_planetary_mod.warden_planet": "Planetary Teleporter: Warden",
       "itemGroup.tabplanetary_mod": "The Planetary Mod",
-      "biome.the_planetary_mod.allay_biome": "Allay Biome"
+      "biome.the_planetary_mod.allay_biome": "Allay Biome",
+      "biome.the_planetary_mod.warden_biome": "Warden Biome"
     }
   },
   "foldersRoot": {

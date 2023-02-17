@@ -7,5 +7,14 @@
         "stream": true
       }
     ]
+  },
+  "obsidian_pinnacle": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "the_planetary_mod:obsidian_pinnacle",
+        "stream": true
+      }
+    ]
   }
 }
