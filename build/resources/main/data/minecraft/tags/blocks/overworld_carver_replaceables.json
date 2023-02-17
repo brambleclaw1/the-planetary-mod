@@ -5,6 +5,8 @@
     "minecraft:diamond_ore",
     "minecraft:sculk",
     "minecraft:green_wool",
-    "minecraft:iron_ore"
+    "minecraft:iron_ore",
+    "minecraft:copper_block",
+    "minecraft:cobbled_deepslate"
   ]
 }

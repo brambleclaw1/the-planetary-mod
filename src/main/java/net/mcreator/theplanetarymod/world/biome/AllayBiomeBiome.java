@@ -44,7 +44,7 @@ public class AllayBiomeBiome {
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-16724737).waterColor(-16776961).waterFogColor(-16776961)
 				.skyColor(-16724737).foliageColorOverride(-16711681).grassColorOverride(-16711681)
-				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("the_planetary_mod:allay_music")), 12000, 24000, true))
+				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("the_planetary_mod:random")), 12000, 24000, true))
 				.ambientParticle(new AmbientParticleSettings(ParticleTypes.FALLING_OBSIDIAN_TEAR, 0.005f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
