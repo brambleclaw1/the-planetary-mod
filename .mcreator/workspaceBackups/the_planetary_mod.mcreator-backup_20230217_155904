@@ -88,51 +88,18 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "slime_teleport_recipe"
-    },
-    {
-      "name": "Slimearmour",
-      "type": "armor",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "slimearmour",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "SnifferDimension",
-      "type": "dimension",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sniffer_dimension",
-      "metadata": {
-        "ep": true
-      }
-    },
-    {
-      "name": "SnifferTeleportRecipe",
-      "type": "recipe",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sniffer_teleport_recipe"
-    },
-    {
-      "name": "SnifferBiome",
-      "type": "biome",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sniffer_biome"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
+    {
+      "name": "allay_music",
+      "files": [
+        "minecraft_fallout_world_ambience"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
     {
       "name": "obsidian_pinnacle",
       "files": [
@@ -148,28 +115,19 @@
       ],
       "category": "music",
       "subtitle": ""
-    },
-    {
-      "name": "random",
-      "files": [
-        "minecraft_fallout_world_ambience"
-      ],
-      "category": "music",
-      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "item.the_planetary_mod.allay_planet": "Planetary Teleporter: Allay",
-      "subtitles.soggy_swamp": "",
-      "item.the_planetary_mod.slime_dimension": "Planetary Teleporter: Slime",
-      "biome.the_planetary_mod.allay_biome": "Allay Biome",
-      "subtitles.random": "",
       "biome.the_planetary_mod.slime_biome": "Slime Biome",
       "subtitles.allay_music": "",
+      "subtitles.soggy_swamp": "",
+      "item.the_planetary_mod.slime_dimension": "Planetary Teleporter: Slime",
       "subtitles.obsidian_pinnacle": "",
       "item.the_planetary_mod.warden_planet": "Planetary Teleporter: Warden",
       "itemGroup.tabplanetary_mod": "The Planetary Mod",
+      "biome.the_planetary_mod.allay_biome": "Allay Biome",
       "biome.the_planetary_mod.warden_biome": "Warden Biome"
     }
   },
