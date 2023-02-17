@@ -107,6 +107,14 @@
       "metadata": {
         "ep": true
       }
+    },
+    {
+      "name": "SnifferTeleportRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sniffer_teleport_recipe"
     }
   ],
   "variable_elements": [],
