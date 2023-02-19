@@ -37,7 +37,7 @@
     },
     "igniterName": "Planetary Teleporter: Sniffer",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:PlanetaryMod"
     },
     "texture": "snifferteleporter",
     "portalTexture": "snifferportal",

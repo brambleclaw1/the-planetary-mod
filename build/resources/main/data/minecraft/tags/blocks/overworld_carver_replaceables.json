@@ -7,6 +7,8 @@
     "minecraft:green_wool",
     "minecraft:iron_ore",
     "minecraft:copper_block",
-    "minecraft:cobbled_deepslate"
+    "minecraft:cobbled_deepslate",
+    "minecraft:quartz_block",
+    "minecraft:obsidian"
   ]
 }

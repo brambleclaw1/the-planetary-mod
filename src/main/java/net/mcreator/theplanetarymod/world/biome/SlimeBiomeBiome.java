@@ -61,7 +61,7 @@ public class SlimeBiomeBiome {
 		BiomeDefaultFeatures.addSurfaceFreezing(biomeGenerationSettings);
 		BiomeDefaultFeatures.addMossyStoneBlock(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
-		mobSpawnInfo.addSpawn(MobCategory.MISC, new MobSpawnSettings.SpawnerData(EntityType.SLIME, 20, 4, 4));
+		mobSpawnInfo.addSpawn(MobCategory.AMBIENT, new MobSpawnSettings.SpawnerData(EntityType.SLIME, 20, 4, 4));
 		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).temperature(0.5f).downfall(0.5f).specialEffects(effects)
 				.mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();
 	}

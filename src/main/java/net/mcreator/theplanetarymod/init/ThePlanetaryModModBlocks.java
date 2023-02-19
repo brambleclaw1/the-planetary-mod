@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.theplanetarymod.block.WardenPlanetPortalBlock;
 import net.mcreator.theplanetarymod.block.SnifferDimensionPortalBlock;
 import net.mcreator.theplanetarymod.block.SlimeDimensionPortalBlock;
+import net.mcreator.theplanetarymod.block.SkyWorldPortalBlock;
 import net.mcreator.theplanetarymod.block.AllayPlanetPortalBlock;
 import net.mcreator.theplanetarymod.ThePlanetaryModMod;
 
@@ -24,4 +25,5 @@ public class ThePlanetaryModModBlocks {
 			() -> new SlimeDimensionPortalBlock());
 	public static final RegistryObject<Block> SNIFFER_DIMENSION_PORTAL = REGISTRY.register("sniffer_dimension_portal",
 			() -> new SnifferDimensionPortalBlock());
+	public static final RegistryObject<Block> SKY_WORLD_PORTAL = REGISTRY.register("sky_world_portal", () -> new SkyWorldPortalBlock());
 }

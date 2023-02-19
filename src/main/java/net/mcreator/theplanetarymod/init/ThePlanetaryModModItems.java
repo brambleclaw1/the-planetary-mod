@@ -14,6 +14,7 @@ import net.mcreator.theplanetarymod.item.WardenPlanetItem;
 import net.mcreator.theplanetarymod.item.SnifferDimensionItem;
 import net.mcreator.theplanetarymod.item.SlimearmourItem;
 import net.mcreator.theplanetarymod.item.SlimeDimensionItem;
+import net.mcreator.theplanetarymod.item.SkyWorldItem;
 import net.mcreator.theplanetarymod.item.AllayPlanetItem;
 import net.mcreator.theplanetarymod.ThePlanetaryModMod;
 
@@ -28,4 +29,5 @@ public class ThePlanetaryModModItems {
 	public static final RegistryObject<Item> SLIMEARMOUR_LEGGINGS = REGISTRY.register("slimearmour_leggings", () -> new SlimearmourItem.Leggings());
 	public static final RegistryObject<Item> SLIMEARMOUR_BOOTS = REGISTRY.register("slimearmour_boots", () -> new SlimearmourItem.Boots());
 	public static final RegistryObject<Item> SNIFFER_DIMENSION = REGISTRY.register("sniffer_dimension", () -> new SnifferDimensionItem());
+	public static final RegistryObject<Item> SKY_WORLD = REGISTRY.register("sky_world", () -> new SkyWorldItem());
 }

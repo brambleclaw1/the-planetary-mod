@@ -129,6 +129,25 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sniffer_biome"
+    },
+    {
+      "name": "ObsidianPinnacles",
+      "type": "biome",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_pinnacles"
+    },
+    {
+      "name": "SkyWorld",
+      "type": "dimension",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_world",
+      "metadata": {
+        "ep": true
+      }
     }
   ],
   "variable_elements": [],
@@ -161,6 +180,7 @@
   "language_map": {
     "en_us": {
       "item.the_planetary_mod.allay_planet": "Planetary Teleporter: Allay",
+      "biome.the_planetary_mod.obsidian_pinnacles": "Obsidian Pinnacles",
       "item.the_planetary_mod.slimearmour_boots": "Slimearmour Boots",
       "subtitles.soggy_swamp": "",
       "biome.the_planetary_mod.sniffer_biome": "Sniffer Biome",
@@ -173,6 +193,7 @@
       "subtitles.allay_music": "",
       "item.the_planetary_mod.slimearmour_leggings": "Slimearmour Leggings",
       "subtitles.obsidian_pinnacle": "",
+      "item.the_planetary_mod.sky_world": "Plantary Teleporter: Sky",
       "item.the_planetary_mod.warden_planet": "Planetary Teleporter: Warden",
       "itemGroup.tabplanetary_mod": "The Planetary Mod",
       "item.the_planetary_mod.slimearmour_helmet": "Slimearmour Helmet",
